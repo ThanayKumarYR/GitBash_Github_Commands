@@ -1,0 +1,55 @@
+    1  pwd
+    2  ls
+    3  ls -a
+    4  mkdir
+    5  cd destop
+    6  cd Desktop
+    7  mkdir C_Sharp
+    8  cd C_Sharp
+    9  mkdir demo
+   10  cd demo
+   11  touch file.txt
+   12  touch file.java file.cs file.js
+   13  ls
+   14  nano file.txt
+   15  cat file.txt
+   16  touch data.csv file1.txt file2.txt
+   17  mkdir demo2
+   18  cd demo2
+   19  cd ..
+   20  history
+   21  rm file.txt
+   22  ls
+   23  rm force demo -f
+   24  ls
+   25  rm -r demo2
+   26  ls
+   27  mkdir
+   28  mkdir demo3
+   29  mv file.cs /demo3
+   30  ls
+   31  cd demo
+   32  ls -a
+   33  cd demo3
+   34  ls
+   35  cd ..
+   36  mv file.java /demo3
+   37  ls
+   38  ls demo3
+   39  cd demo3
+   40  ls
+   41  ls demo3
+   42  cd ..
+   43  ls demo3
+   44  ls
+   45  mv file1.txt demo3/
+   46  ls demo3
+   47  cat data.csv
+   48  head data.csv
+   49  tail data.csv
+   50  cat data.csv|grep thanay
+   51  cat data.csv|grep l
+   52  echo hello
+   53  echo "sdjfhksjdfhkajsk"
+   54  cd c
+   55  history
