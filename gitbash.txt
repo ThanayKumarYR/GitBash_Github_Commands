@@ -1,0 +1,59 @@
+ 1  cd ~
+    2  cd source/repos/ConsoleApp1
+    3  git init
+    4  git remote add origin https://github.com/ThanayKumarYR/demoCsharp.git
+    5  git init
+    6  git add .
+    7  ls
+    8  git status
+    9  rm .git
+   10  rm -rf .git
+   11  git init
+   12  git remote add origin https://github.com/ThanayKumarYR/demoCsharp.git
+   13  git init
+   14  git add Program.cs
+   15  git status
+   16  git commit -m "basics program"
+   17  git push origin master
+   18  git chechout -b uc1
+   19  git checkout -b uc1
+   20  touch file.cs
+   21  nano file.cs
+   22  git add file.cs
+   23  git commit -m "adding file.cs to sub branch uc1"
+   24  git status
+   25  git push origin uc1
+   26  git checkout master
+   27  touch file.txt
+   28  nano file.txt
+   29  git add file.txt
+   30  git commit -m "adding file.txt to master branch"
+   31  git push origin master
+   32  git checkout -b uc2
+   33  touch file.csv
+   34  nano file.csv
+   35  nano file.txt
+   36  git add file.txt
+   37  git commit -m "adding file.txt to uc2"
+   38  git push origin uc2
+   39  git checkout master
+   40  git merge uc2
+   41  git push origin master
+   42  git checkout -b uc3
+   43  git branch
+   44  git branch --delete uc3
+   45  git branch --d uc3
+   46  git checkout master
+   47  git branch --d uc3
+   48  git checkout -b uc3
+   49  git checkout uc2
+   50  git checkout -b uc3
+   51  git branch --d uc3
+   52  git branch -m uc2 uc4
+   53  git branch]
+   54  git branch
+   55  git push origin master
+   56  git push origin uc4
+   57  git push origin --d uc2
+   58  git push origin --delete uc2
+   59  history
